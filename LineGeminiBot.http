@@ -1,0 +1,6 @@
+@LineGeminiBot_HostAddress = http://localhost:5004
+
+GET {{LineGeminiBot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
