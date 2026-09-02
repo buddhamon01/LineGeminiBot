@@ -19,7 +19,7 @@ public class GeminiService
         if (string.IsNullOrWhiteSpace(apiKey))
             throw new Exception("Gemini API Key not found.");
 
-        var url = $"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key={apiKey}";
+        var url = $"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent?key={apiKey}";
 
         var body = new
         {
